@@ -1,0 +1,20 @@
+.task__content {
+    display: flex;
+    gap: 5px;
+    border-bottom: 2px solid #ccc;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.task__content--done {
+    text-decoration: line-through;
+}
+
+.task__content--text {
+    flex-grow: 1;
+}
+
+.tasks__content--hidden {
+    display: none;
+}
+

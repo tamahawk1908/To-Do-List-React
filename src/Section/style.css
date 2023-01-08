@@ -1,0 +1,36 @@
+.section {
+    text-align: start;
+    background-color: white;
+}
+
+.section__header {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    margin: 10px 0px 0px;
+    border-bottom: solid 2px hsl(0, 0%, 90%);
+}
+
+.section__tasksHeader {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, auto);
+    grid-template-rows: 1fr;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0px 0px;
+    padding: 20px;
+    border-bottom: solid 2px hsl(0, 0%, 90%);
+}
+
+@media (max-width: 768px) {
+    .section__tasksHeader {
+        display: grid;
+        grid-template-columns: auto;
+        grid-row-gap: 20px;
+        justify-items: center;
+    }
+}
+
+.section__list {
+    background-color: white;
+    padding: 20px;
+}
