@@ -1,7 +1,7 @@
 import "./style.css"
 
 const Buttons = ({ tasks, hideDoneTasks }) => (
-    <span className="section__tasksHeader--buttons">
+    <div className="buttons">
         {tasks.length > 0 && (
             <>
                 <button 
@@ -15,7 +15,7 @@ const Buttons = ({ tasks, hideDoneTasks }) => (
                 </button>
             </>
         )}
-    </span>
+    </div>
 );
 
 

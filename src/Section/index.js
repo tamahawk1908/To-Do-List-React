@@ -1,12 +1,12 @@
 import "./style.css";
 
 const Section = ({ title, body, additionalButtons }) => (
-    <section className="section">
+    <header className="section">
         <div className="section__tasksHeader">{title}
             {additionalButtons}
         </div>
         {body}
-    </section>
+    </header>
 );
 
 export default Section;

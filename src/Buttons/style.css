@@ -1,56 +1,14 @@
-.tasksHeader__button {
+.buttons {
     background: none;
     border: none;
     font-size: medium;
 }
 
 @media (max-width: 768px) {
-    .tasksHeader__button {
+    .buttons {
         display: grid;
         grid-template-rows: repeat(2, 1fr);
     }
-}
-
-.button__done {
-    align-content: flex-start;
-    flex-shrink: 0;
-    color: white;
-    width: 25px;
-    height: 25px;
-    border-style: none;
-    background-color: green;
-    transition: 1s;
-}
-
-.button__done:focus {
-    border: 2px solid hsl(0, 0%, 20%);
-}
-
-.button__done:hover {
-    background-color: hsl(120, 100%, 30%);
-}
-
-.button__remove {
-    align-content: flex-end;
-    flex-shrink: 0;
-    width: 25px;
-    height: 25px;
-    border-style: none;
-    background-color: red;
-    transition: 1s;
-}
-
-.button__remove:focus {
-    border: 2px solid hsl(0, 0%, 20%);
-}
-
-.button__remove:hover {
-    background-color: hsl(0, 100%, 65%);
-    transform: rotate(180deg);
-}
-
-.button__remove--icon {
-    color: white;
 }
 
 .buttons__button {
