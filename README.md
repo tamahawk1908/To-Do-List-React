@@ -1,7 +1,9 @@
-# To-Do List (React.js)
+<h1 align="center"> To-Do List (React.js)</h1>
 
-## My project of To-Do List made in React App.
-
+<h2 align="center"> My project of To-Do List made in React App. </h2>
+<h2 align="center">
+<img src="public/ListaZadań.png">
+</h2>
 Demo: https://tamahawk1908.github.io/To-Do-List-React/
 <h3 align="left">Languages and Tools used in this project:</h3>
 <p align="left"> 
