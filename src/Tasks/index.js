@@ -3,7 +3,7 @@ import "./style.css";
 const Tasks = ({ tasks, hideDoneTasks }) => (
     <ul className="section__list">
         {tasks.map((task, index) => (
-            <><li 
+            <li 
                 key={index} 
                 className={`task__content ${task.done && hideDoneTasks ? "tasks__content--hidden" : ""}` }>
                 <button className="button__done">
@@ -18,7 +18,6 @@ const Tasks = ({ tasks, hideDoneTasks }) => (
                     </span>
                 </button>
             </li>
-            </>
         ))}
     </ul>
 );
