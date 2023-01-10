@@ -2,7 +2,9 @@
 
 <h2 align="center"> My project of To-Do List made in React App. </h2>
 <h2 align="center">
-<img src="public/ListaZadań.png">
+
+![Screenshot](https://github.com/tamahawk1908/To-Do-List-React/blob/8b90f342ba5d93a971f17b9023d76eeb72a5b3cf/public/AnimationToDoList3.gif)
+
 </h2>
 Demo: https://tamahawk1908.github.io/To-Do-List-React/
 <h3 align="left">Languages and Tools used in this project:</h3>
