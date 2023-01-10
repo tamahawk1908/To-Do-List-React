@@ -14,7 +14,7 @@ function App() {
 
   const [tasks, setTasks] = useState([
     { id: 1, content: "zjeść obiad", done: true },
-    { id: 2, content: "wypić piwo", done: false },
+    { id: 2, content: "ukończyć 9 moduł YouCode", done: false },
   ]);
 
   const removeTask = (id) => {
